@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sarwar.tabex.MainActivity">
+    <item
+        android:id="@+id/option1"
+        android:orderInCategory="100"
+        android:title="Item One"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option2"
+        android:orderInCategory="101"
+        android:title="Item Two"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about_me"
+        android:orderInCategory="101"
+        android:title="About Me"
+        app:showAsAction="never" />
+</menu>
